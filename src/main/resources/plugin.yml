@@ -1,0 +1,12 @@
+name: ArmorStandTest
+version: @version@
+main: se.gory_moon.armorstandtest.ArmorStandTest
+api-version: 1.16
+prefix: AT
+depend: [ ProtocolLib ]
+authors: [ GoryMoon ]
+description: A test plugin to send custom packets to the client
+commands:
+  test:
+    description: Test command
+    usage: "Usage: /test <start/stop>"
